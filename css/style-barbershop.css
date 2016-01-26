@@ -1,0 +1,18 @@
+body {
+  font-size: 14px;
+  line-height: 24px;
+  color: black;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+}
+
+.index-content-title,
+.panel-shop p {
+  font-size: 30px;
+  line-height: normal;
+  font-weight: bold;
+}
+
+.features-item .features-name,
+.features-item p {
+  color: white;
+}

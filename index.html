@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Барбершоп «Бородинский»</title>
+    <link href="css/style-barbershop.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
@@ -16,7 +17,7 @@
               <a href="#">Новости</a>
             </li>
             <li>
-              <a href="#">Прайс-лист</a>
+              <a href="price.html">Прайс-лист</a>
             </li>
             <li>
               <a href="shop.html">Магазин</a>
@@ -32,20 +33,19 @@
       </div>
     </header>
     <main class="container">
-      <div class="index-logo">
-        <img src="img/index-logo.png" width="368" height="204" alt="Барбершоп «Бородинский»">
-      </div>
+      <img src="img/index-logo.png" width="368" height="204" alt="Барбершоп «Бородинский»" class="index-logo">
+
       <section class="features">
         <div class="features-item">
-          <b class="features-name">Быстро</b>
+          <span class="features-name">Быстро</span>
           <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы — счастливый обладатель стильной стрижки-минутки!</p>
         </div>
         <div class="features-item">
-          <b class="features-name">Круто</b>
+          <span class="features-name">Круто</span>
           <p>Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>
         </div>
         <div class="features-item">
-          <b class="features-name">Дорого</b>
+          <span class="features-name">Дорого</span>
           <p>Наши мастера — профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?</p>
         </div>
       </section>
@@ -67,11 +67,9 @@
         <div class="index-content-right">
           <h2 class="index-content-title">Фотогалерея</h2>
           <div class="gallery">
-            <figure class="gallery-content">
-              <img src="img/photo-1.jpg" width="286" height="164" alt="">
-            </figure>
-            <button class="btn gallery-prev">Назад</button>
-            <button class="btn gallery-next">Вперёд</button>
+            <img src="img/photo-1.jpg" width="286" height="164" alt="">
+            <a href="#" class="btn gallery-prev">Назад</a>
+            <a href="#" class="btn gallery-next">Вперёд</a>
           </div>
         </div>
       </div>

@@ -11,15 +11,15 @@ body {
   display: table;
   clear: both;
 }
-
-div,
+/* для наглядности */
+/*div,
 section {
   outline: 1px solid green;
 }
 
 article {
     outline: 1px solid red;
-}
+}*/
 
 .index-content-title,
 .panel-shop p {

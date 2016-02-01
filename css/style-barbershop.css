@@ -3,6 +3,22 @@ body {
   line-height: 24px;
   color: black;
   font-family: "PT Sans Narrow", "Arial", sans-serif;
+  background: black url("../img/background.jpg") 50% 50% no-repeat;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div,
+section {
+  outline: 1px solid green;
+}
+
+article {
+    outline: 1px solid red;
 }
 
 .index-content-title,
@@ -15,4 +31,166 @@ body {
 .features-item .features-name,
 .features-item p {
   color: white;
+}
+
+/*index.html*/
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-header {
+  margin-bottom: 60px;
+}
+
+.main-navigation {
+  float: left;
+  width: 780px;
+  min-height: 70px;
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+  min-height: 70px;
+}
+
+.index-logo {
+  width: 368px;
+  min-height: 204px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+}
+
+.features {
+  margin-bottom: 80px;
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+  min-height: 175px;
+  margin-right: 20px;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.index-content {
+  margin-bottom: 35px;
+  padding: 50px 80px;
+  background: white url("../img/bg-content.jpg") repeat;
+}
+
+.index-content-left {
+  float: left;
+  width: 380px;
+  min-height: 330px;
+}
+
+.index-content-right {
+  float: right;
+  width: 300px;
+  min-height: 330px;
+}
+
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+  min-height: 90px;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+  min-height: 90px;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+  min-height: 90px;
+}
+
+/* item.html */
+
+.panel-shop{
+  margin-bottom: 50px;
+}
+
+.breadcrumbs{
+  margin-top: 20px;
+}
+
+.item-photo {
+  float: left;
+  width: 475px;
+}
+
+.item-text {
+  float: right;
+  width: 400px;
+}
+
+.item-img-big,
+.item-img-small {
+  box-shadow: 0 0 10px 0 grey;
+}
+
+/* shop.html */
+.sort {
+  float: left;
+  width: 200px;
+}
+
+.result-items{
+  float: right;
+  width: 740px;
+}
+
+.item {
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 0 0 10px 0 grey;
+    margin-right:20px;
+    margin-bottom: 20px;
+    width: 230px;
+}
+
+.item figure{
+   margin: 0;
+}
+
+.item:nth-child(3n) {
+    margin-right:0px;
+}
+/* price */
+.info-left-side{
+  float: left;
+  width: 375px;
+}
+
+.info-right-side{
+  float: right;
+  width: 520px;
+}
+
+.main_info_about p{
+  display: inline-block;
+  vertical-align: top;
+  width: 405px;
+}
+
+.bg-white{
+  background: white url("../img/bg-content.jpg") repeat;
 }

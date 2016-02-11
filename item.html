@@ -3,15 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>Барбершоп «Бородинский»</title>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style-barbershop.css" rel="stylesheet">
   </head>
-  <body class="bg-white">
-    <header class="main-header">
+  <body class="info-body">
+    <header class="main-header inner-page">
       <div class="container clearfix">
         <nav class="main-navigation">
           <ul>
             <li>
-              <a href="index.html"><img src="img/barbershop.png"></a>
+              <a href="index.html" class="logo"><img src="img/barbershop.png"></a>
             </li>
             <li>
               <a href="#">Информация</a>
@@ -23,7 +25,7 @@
               <a href="price.html">Прайс-лист</a>
             </li>
             <li>
-              <a href="#">Магазин</a>
+              <a href="shop.html" class="active">Магазин</a>
             </li>
             <li>
               <a href="#">Контакты</a>
@@ -35,7 +37,6 @@
         </div>
       </div>
     </header>
-
     <main class="container">
       <div class="panel-shop">
         <h1> Набор для путешествий «Baxter of California»
@@ -63,6 +64,7 @@
         <section class="item-text">
           <span class="item-exist"> Есть в наличии</span>
           <span class="item-code"> Артикул: Dexter-AE</span>
+          <div class="clearfix"></div>
           <p> Travel kit - необходимый аксессуар во время любого путешествия.
               В аккуратной кожаной сумке находится все, что нужно для бритья
               и ухода за кожей во время рабочей поездки или отдыха: средство
@@ -70,7 +72,7 @@
               шампунь. Набор также может стать отличным подарком.
           </p>
           <span class="item-price">300 руб.</span>
-          <a href="#" class="item-buy">Купить</a>
+          <a href="#" class="btn item-buy">Купить</a>
           <h2> В набор входят:</h2>
           <ul>
             <li>средство для умывания (50 мл)</li>
@@ -84,7 +86,7 @@
 
     </main>
 
-    <footer class="main-footer">
+    <footer class="main-footer shadow">
       <div class="container clearfix">
         <section class="footer-contacts">
           Барбершоп «Бородинский»<br>
